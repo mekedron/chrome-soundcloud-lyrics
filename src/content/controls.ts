@@ -20,7 +20,7 @@ function injectLyricsBtnToPlayControlsPanel() {
 
     if (
       !soundBadgeActions ||
-      soundBadgeActions.querySelector('.sc-button-song-lyrics')
+      soundBadgeActions.querySelector('.button-song-lyrics')
     ) {
       return;
     }
@@ -28,7 +28,7 @@ function injectLyricsBtnToPlayControlsPanel() {
     const button = document.createElement('button');
     button.type = 'button';
     button.classList.add(
-      'sc-button-song-lyrics',
+      'button-song-lyrics',
       'playbackSoundBadge__follow',
       'sc-mr-1x',
       'sc-button',
@@ -85,7 +85,7 @@ async function showLyrics(song?: string, author?: string) {
     content.innerText = response.lyrics;
   }
 
-  showModal(`Lyrics for "${song}" by "${author}"`, content, 'lyrics');
+  showModal(`${song} - ${author}`, content, 'lyrics');
 }
 
 controls();

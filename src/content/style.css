@@ -1,4 +1,4 @@
-.sc-classic .sc-button-song-lyrics.m-boldIcon:before {
+.sc-classic .button-song-lyrics.m-boldIcon:before {
     content: "";
     display: block;
     position: absolute;
@@ -9,4 +9,13 @@
     margin: auto 0;
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IgogICAgIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNNjcsNjJjMCwwLjYtMC40LDEtMSwxSDM4Yy0wLjYsMC0xLTAuNC0xLTFzMC40LTEsMS0xaDI4QzY2LjYsNjEsNjcsNjEuNCw2Nyw2MnogTTY2LDUzSDM4Yy0wLjYsMC0xLDAuNC0xLDFzMC40LDEsMSwxaDI4ICBjMC42LDAsMS0wLjQsMS0xUzY2LjYsNTMsNjYsNTN6IE02Nyw0NmMwLTAuNi0wLjQtMS0xLTFINDh2MmgxOEM2Ni42LDQ3LDY3LDQ2LjYsNjcsNDZ6IE02NywzOGMwLTAuNi0wLjQtMS0xLTFINDh2MmgxOCAgQzY2LjYsMzksNjcsMzguNiw2NywzOHogTTc1LDIzSDQ4djRoMjV2NDZIMzFWNTBoLTR2MjVjMCwxLjEsMC45LDIsMiwyaDQ2YzEuMSwwLDItMC45LDItMlYyNUM3NywyMy45LDc2LjEsMjMsNzUsMjN6IE0yOCwyOC41ICBsMTMuNi0zLjR2OC41Yy0wLjktMC42LTItMS0zLjMtMWMtMi45LDAtNS4zLDItNS4zLDQuNXMyLjQsNC41LDUuMyw0LjVjMi45LDAsNS4zLTIsNS4zLTQuNVYxOGMwLTAuNjcxLTAuNDkyLTEtMS4yLTFsLTE1LjYsMy45ICBjLTAuNCwwLjEtMC44LDAuNS0wLjgsMXYxNS41Yy0wLjktMC42LTItMS0zLjMtMWMtMi45LDAtNS4zLDItNS4zLDQuNXMyLjQsNC41LDUuMyw0LjVjMi45LDAsNS4zLTIsNS4zLTQuNVYyOC41eiIvPgo8L3N2Zz4=");
     background-size: 24px 24px;
+}
+
+.modal-song-lyrics .modal__modal {
+    height: auto;
+    width: 850px;
+    max-width: 100%;
+    margin-top: 76px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }

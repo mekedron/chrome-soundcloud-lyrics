@@ -24,6 +24,7 @@ function showModal(
   const modalRoot = document.createElement('div');
   modalRoot.classList.add(
     'modal',
+    'modal-song-lyrics',
     'g-z-index-modal-background',
     'g-opacity-transition',
     'g-z-index-overlay',
@@ -46,9 +47,6 @@ function showModal(
     'sc-border-box',
     'g-z-index-modal-content'
   );
-  modalWrapper.style.width = '850px';
-  modalWrapper.style.left = '362px';
-  modalWrapper.style.marginTop = '76px';
   modalWrapper.style.height = 'auto';
 
   const modalCloseButton = document.createElement('button');

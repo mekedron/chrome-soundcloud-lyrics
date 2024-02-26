@@ -1,7 +1,7 @@
 {
   "name": "SoundCloud Lyrics",
   "short_name": "SoundCloud Lyrics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds show lyrics button to SoundCloud! Using lyrist API.",
   "manifest_version": 3,
   "background": {
