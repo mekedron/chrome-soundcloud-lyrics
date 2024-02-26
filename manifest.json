@@ -1,0 +1,32 @@
+{
+  "name": "SoundCloud Lyrics",
+  "short_name": "SoundCloud Lyrics",
+  "version": "1.0.0",
+  "description": "Adds show lyrics button to SoundCloud! Using lyrist API.",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "src/service-worker/index.ts",
+    "type": "module"
+  },
+  "host_permissions": [
+    "https://lyrist.vercel.app/api/*"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "32": "icon-32.png",
+    "128": "icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "src/content/index.ts"
+      ],
+      "matches": [
+        "https://soundcloud.com/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
